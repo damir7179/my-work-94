@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d293c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-panel {
+    background-color: #005f73;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-panel {
+    background-color: #eaf4f4;
+    color: #005f73;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.create-account-btn {
+    border-color: #fff;
+}
+
+.create-account-btn:hover {
+    background-color: #fff;
+    color: #005f73;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #005f73;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sign-in-btn {
+    align-self: center;
+    background-color: #005f73;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: #003d4f;
+}
